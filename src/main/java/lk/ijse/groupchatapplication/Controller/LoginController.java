@@ -31,7 +31,7 @@ public class LoginController {
     void btnSubmitOnAction(ActionEvent event) throws IOException {
 
         Stage stage = (Stage) btnOK.getScene().getWindow();
-        stage.close();
+//        stage.close();
 
         FXMLLoader fxmlLoader = new FXMLLoader(ServerApplication.class
                 .getResource("server-view.fxml"));
